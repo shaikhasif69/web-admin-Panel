@@ -1,0 +1,30 @@
+{
+  "name": "web-admin-panel",
+  "version": "1.0.0",
+  "description": "admin dashboard set up",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaikhasif69/web-admin-Panel.git"
+  },
+  "keywords": [
+    "great"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaikhasif69/web-admin-Panel/issues"
+  },
+  "homepage": "https://github.com/shaikhasif69/web-admin-Panel#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.5"
+  }
+}
